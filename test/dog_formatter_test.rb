@@ -1,9 +1,9 @@
 require 'test_helper'
+require 'dog_formatter/model'
 
 class User < ActiveRecord::Base
   include DagFormatter::Model
 end
-
 
 class DogFormatterTest < ActiveSupport::TestCase
   test "truth" do

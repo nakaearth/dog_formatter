@@ -1,14 +1,12 @@
 module DogFormatter
   module Model
-    def self.included(model)
-      super
-      model.singleton_class.class_eval do
-        include ClassMethods
-      end
-    end
+   extend ActiveSupport::Concern
+
+   included do
+   end
 
     module ClassMethods
-      def method_missing(method_name,  *_args,  &_block)
+      def method_missing(method_name, *_args, &_block)
         return unless method_name.to_s.end_with?("_ymd")
 
         method_name_except_format_value = method_name.to_s.sub!(/_ymd/, '')
