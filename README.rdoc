@@ -3,26 +3,26 @@ date format gem
 
 = install
 
-```
+```ruby
 $ bundle isntall dog_formatter
 ```
 
 or 
 
-```
+```Gemfile
 gem 'dog_formatter'
 ```
 
 = usage
 
-```
+```ruby
 1 require 'dog_formatter/model'
 2
 3 class User < ActiveRecord::Base
 4 end
 ```
 
-```
+```ruby
 user.created_at_ymd
 => "2016/11/04"
 user.created_at_ymd_ja
