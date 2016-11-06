@@ -1,7 +1,7 @@
-= DogFormatter
+# DogFormatter
 date format gem
 
-= install
+# install
 
 ```ruby
 $ bundle isntall dog_formatter
@@ -13,7 +13,7 @@ or
 gem 'dog_formatter'
 ```
 
-= usage
+# usage
 
 ```ruby
 1 require 'dog_formatter/model'
