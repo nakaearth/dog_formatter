@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dog_formatter (0.0.1)
+    dog_formatter (0.0.2)
       rails (~> 4.2.6)
 
 GEM
@@ -131,4 +131,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.12.3
+   1.13.6
