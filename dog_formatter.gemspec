@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["naka5313@gmail.com"]
   s.homepage    = ""
   s.summary     = "日付けのFormatter"
-  s.description = "日付けのFormatterをするgem"
+  s.description = "日付けの表示形式を変更するgem"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
